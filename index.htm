@@ -28,6 +28,19 @@
         margin: 40px;
         font-size: 18px;
       }
+      .mi-boton {
+        background: linear-gradient(90deg, #6a357f, #2cc389);
+        padding: 8px 24px;
+        color: #fafbfc;
+        border: 1px solid #fafbfc;
+        border-radius: 4px;
+      }
+
+      .mi-boton:hover {
+        background: linear-gradient(90deg, #6a357faa, #2cc389aa);
+        color: #fafbfcaa;
+        border: 1px solid #fafbfcaa;
+      }
     </style>
   </head>
   <body>
@@ -38,6 +51,7 @@
     <ol>
       <li>Abrir una terminal.</li>
       <li>Ubicarse en la carpeta del proyecto.</li>
+      <li>Instalar prompt-sync: <code>npm install prompt-sync</code></li>
       <li>Ejecutar: <code>node simuladorMision.js</code></li>
     </ol>
 
@@ -46,8 +60,11 @@
       <li>Abrir el archivo <code>index.html</code> en un navegador web.</li>
       <li>Abrir las herramientas de desarrollador (F12).</li>
       <li>Ir a la pestaña "Consola".</li>
-      <li>Seguir las instrucciones que aparecen en la consola.</li>
+      <li>Instalar prompt-sync: <code>npm install prompt-sync</code></li>
     </ol>
+
+    <button onclick="iniciarSimulador()" class="mi-boton">Iniciar simulación</button>
+
     <script src="simuladorMision.js"></script>
   </body>
 </html>
