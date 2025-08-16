@@ -35,7 +35,8 @@ M3_Evaluacion-SimuladorMision
 ### Opción 1 – Ejecutar en Node.js
 1. Abrir una terminal.
 2. Ubicarse en la carpeta del proyecto.
-3. Ejecutar:
+3. Instalar prompt-sync: `npm install prompt-sync`
+4. Ejecutar:
    ```bash
    node simuladorMision.js
    ```
@@ -44,7 +45,7 @@ M3_Evaluacion-SimuladorMision
 1. Abrir el archivo index.html en un navegador web.
 2. Abrir las herramientas de desarrollador (F12).
 3. Ir a la pestaña "Consola".
-4. Seguir las instrucciones que aparecen en la consola.
+4. Hacer clic en el botón **Iniciar simulación**.
 
 ---
 
